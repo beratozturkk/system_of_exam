@@ -1,0 +1,3146 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/opt/homebrew/Cellar/maven/3.9.10/libexec/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.beratozturk:SystemOfExam >--------------------
+[INFO] Building SystemOfExam 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.4:run (default-cli) > test-compile @ SystemOfExam >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ SystemOfExam ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ SystemOfExam ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ SystemOfExam ---
+[INFO] skip non existing resourceDirectory /Users/beratozturk/Desktop/SystemOfExam kopyası/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ SystemOfExam ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.5.4:run (default-cli) < test-compile @ SystemOfExam <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.4:run (default-cli) @ SystemOfExam ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.4)
+
+2025-08-27T04:49:01.205+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] c.b.S.SystemOfExamApplication            : Starting SystemOfExamApplication using Java 24.0.1 with PID 14790 (/Users/beratozturk/Desktop/SystemOfExam kopyası/target/classes started by beratozturk in /Users/beratozturk/Desktop/SystemOfExam kopyası)
+2025-08-27T04:49:01.206+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] c.b.S.SystemOfExamApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-08-27T04:49:01.223+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-27T04:49:01.223+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-27T04:49:01.463+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-27T04:49:01.487+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 5 JPA repository interfaces.
+2025-08-27T04:49:01.691+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-27T04:49:01.697+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-27T04:49:01.698+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-27T04:49:01.710+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-27T04:49:01.710+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 487 ms
+2025-08-27T04:49:01.771+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-27T04:49:01.788+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-27T04:49:01.803+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-27T04:49:01.897+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-27T04:49:01.907+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-27T04:49:01.971+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e4c6a97
+2025-08-27T04:49:01.972+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-27T04:49:01.984+03:00  WARN 14790 --- [SystemOfExam] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-27T04:49:01.990+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-27T04:49:02.328+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: 
+    set client_min_messages = WARNING
+Hibernate: 
+    alter table if exists answer 
+       drop constraint if exists FKn5ewqgxmt92i4mkcpcdelvq3s
+Hibernate: 
+    alter table if exists answer 
+       drop constraint if exists FK8frr4bcabmmeyyu60qt7iiblo
+Hibernate: 
+    alter table if exists question 
+       drop constraint if exists FKhupso6ldavcx993tfnrjsdl1p
+Hibernate: 
+    drop table if exists answer cascade
+Hibernate: 
+    drop table if exists exam cascade
+Hibernate: 
+    drop table if exists exam_attempt cascade
+Hibernate: 
+    drop table if exists question cascade
+Hibernate: 
+    drop table if exists users cascade
+Hibernate: 
+    create table answer (
+        attempt_id bigint,
+        id bigint generated by default as identity,
+        question_id bigint,
+        answer_text oid,
+        primary key (id)
+    )
+Hibernate: 
+    create table exam (
+        duration_in_minutes integer not null,
+        is_active boolean not null,
+        end_date timestamp(6),
+        id bigint generated by default as identity,
+        start_date timestamp(6),
+        description varchar(255),
+        title varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    create table exam_attempt (
+        end_time timestamp(6),
+        exam_id bigint,
+        id bigint generated by default as identity,
+        start_time timestamp(6),
+        user_id bigint,
+        status varchar(255),
+        primary key (id),
+        unique (exam_id, user_id)
+    )
+Hibernate: 
+    create table question (
+        exam_id bigint,
+        id bigint generated by default as identity,
+        correct_answer varchar(255),
+        options varchar(255),
+        question_text varchar(255),
+        question_type varchar(255) check (question_type in ('MULTIPLE_CHOICE','SHORT_ANSWER','TRUE_FALSE')),
+        primary key (id)
+    )
+Hibernate: 
+    create table users (
+        id bigint generated by default as identity,
+        password varchar(255),
+        role varchar(255) check (role in ('STUDENT','TEACHER','ADMIN')),
+        user_name varchar(255),
+        primary key (id)
+    )
+Hibernate: 
+    alter table if exists answer 
+       add constraint FKn5ewqgxmt92i4mkcpcdelvq3s 
+       foreign key (attempt_id) 
+       references exam_attempt
+Hibernate: 
+    alter table if exists answer 
+       add constraint FK8frr4bcabmmeyyu60qt7iiblo 
+       foreign key (question_id) 
+       references question
+Hibernate: 
+    alter table if exists question 
+       add constraint FKhupso6ldavcx993tfnrjsdl1p 
+       foreign key (exam_id) 
+       references exam
+2025-08-27T04:49:02.366+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-27T04:49:02.527+03:00  WARN 14790 --- [SystemOfExam] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-27T04:49:02.616+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-08-27T04:49:02.616+03:00  WARN 14790 --- [SystemOfExam] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-08-27T04:49:02.731+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-27T04:49:02.743+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-27T04:49:02.748+03:00  INFO 14790 --- [SystemOfExam] [  restartedMain] c.b.S.SystemOfExamApplication            : Started SystemOfExamApplication in 1.68 seconds (process running for 1.826)
+2025-08-27T04:49:37.561+03:00  INFO 14790 --- [SystemOfExam] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-27T04:49:37.562+03:00  INFO 14790 --- [SystemOfExam] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-27T04:49:37.562+03:00  INFO 14790 --- [SystemOfExam] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+2025-08-27T04:49:37.650+03:00 ERROR 14790 --- [SystemOfExam] [nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.beratozturk.SystemOfExam.Model.User.getUserName()" because "user" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.beratozturk.SystemOfExam.Model.User.getUserName()" because "user" is null
+	at com.beratozturk.SystemOfExam.Controller.AuthController.login(AuthController.java:46) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at com.beratozturk.SystemOfExam.Security.JwtFilter.doFilterInternal(JwtFilter.java:53) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
+
+Hibernate: 
+    insert 
+    into
+        users
+        (password, role, user_name) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        users
+        (password, role, user_name) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+2025-08-27T04:50:28.055+03:00 ERROR 14790 --- [SystemOfExam] [nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.beratozturk.SystemOfExam.Model.User.getUserName()" because "user" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.beratozturk.SystemOfExam.Model.User.getUserName()" because "user" is null
+	at com.beratozturk.SystemOfExam.Controller.AuthController.login(AuthController.java:46) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at com.beratozturk.SystemOfExam.Security.JwtFilter.doFilterInternal(JwtFilter.java:53) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
+
+Hibernate: 
+    insert 
+    into
+        users
+        (password, role, user_name) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    insert 
+    into
+        exam
+        (description, duration_in_minutes, end_date, is_active, start_date, title) 
+    values
+        (?, ?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    insert 
+    into
+        question
+        (correct_answer, exam_id, options, question_text, question_type) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    insert 
+    into
+        question
+        (correct_answer, exam_id, options, question_text, question_type) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        q1_0.id=?
+Hibernate: 
+    update
+        question 
+    set
+        correct_answer=?,
+        exam_id=?,
+        options=?,
+        question_text=?,
+        question_type=? 
+    where
+        id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    update
+        exam 
+    set
+        description=?,
+        duration_in_minutes=?,
+        end_date=?,
+        is_active=?,
+        start_date=?,
+        title=? 
+    where
+        id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+2025-08-27T04:51:42.585+03:00 ERROR 14790 --- [SystemOfExam] [nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.beratozturk.SystemOfExam.Model.User.getUserName()" because "user" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.beratozturk.SystemOfExam.Model.User.getUserName()" because "user" is null
+	at com.beratozturk.SystemOfExam.Controller.AuthController.login(AuthController.java:46) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at com.beratozturk.SystemOfExam.Security.JwtFilter.doFilterInternal(JwtFilter.java:53) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
+
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+2025-08-27T04:51:43.761+03:00 ERROR 14790 --- [SystemOfExam] [io-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.beratozturk.SystemOfExam.Model.User.getUserName()" because "user" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.beratozturk.SystemOfExam.Model.User.getUserName()" because "user" is null
+	at com.beratozturk.SystemOfExam.Controller.AuthController.login(AuthController.java:46) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.43.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at com.beratozturk.SystemOfExam.Security.JwtFilter.doFilterInternal(JwtFilter.java:53) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.2.jar:6.5.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.9.jar:6.2.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.43.jar:10.1.43]
+	at java.base/java.lang.Thread.run(Thread.java:1447) ~[na:na]
+
+Hibernate: 
+    insert 
+    into
+        users
+        (password, role, user_name) 
+    values
+        (?, ?, ?)
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    insert 
+    into
+        exam_attempt
+        (end_time, exam_id, start_time, status, user_id) 
+    values
+        (?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        exam_attempt
+        (end_time, exam_id, start_time, status, user_id) 
+    values
+        (?, ?, ?, ?, ?)
+2025-08-27T04:51:58.577+03:00  WARN 14790 --- [SystemOfExam] [nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23505
+2025-08-27T04:51:58.577+03:00 ERROR 14790 --- [SystemOfExam] [nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: duplicate key value violates unique constraint "exam_attempt_exam_id_user_id_key"
+  Ayrıntı: Key (exam_id, user_id)=(1, 4) already exists.
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    update
+        exam_attempt 
+    set
+        end_time=?,
+        exam_id=?,
+        start_time=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    update
+        exam_attempt 
+    set
+        end_time=?,
+        exam_id=?,
+        start_time=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    update
+        exam 
+    set
+        description=?,
+        duration_in_minutes=?,
+        end_date=?,
+        is_active=?,
+        start_date=?,
+        title=? 
+    where
+        id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    update
+        exam 
+    set
+        description=?,
+        duration_in_minutes=?,
+        end_date=?,
+        is_active=?,
+        start_date=?,
+        title=? 
+    where
+        id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.is_active
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        q1_0.exam_id,
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    where
+        q1_0.exam_id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.password,
+        u1_0.role,
+        u1_0.user_name 
+    from
+        users u1_0 
+    where
+        u1_0.user_name=?
+Hibernate: 
+    select
+        e1_0.id,
+        e1_0.description,
+        e1_0.duration_in_minutes,
+        e1_0.end_date,
+        e1_0.is_active,
+        e1_0.start_date,
+        e1_0.title 
+    from
+        exam e1_0 
+    where
+        e1_0.id=?
+Hibernate: 
+    select
+        ea1_0.id,
+        ea1_0.end_time,
+        ea1_0.exam_id,
+        ea1_0.start_time,
+        ea1_0.status,
+        ea1_0.user_id 
+    from
+        exam_attempt ea1_0 
+    where
+        ea1_0.user_id=? 
+        and ea1_0.exam_id=?
+Hibernate: 
+    select
+        q1_0.id,
+        q1_0.correct_answer,
+        q1_0.exam_id,
+        q1_0.options,
+        q1_0.question_text,
+        q1_0.question_type 
+    from
+        question q1_0 
+    left join
+        exam e1_0 
+            on e1_0.id=q1_0.exam_id 
+    where
+        e1_0.id=?
+2025-08-27T09:56:12.184+03:00  INFO 14790 --- [SystemOfExam] [ionShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-27T09:56:12.191+03:00  INFO 14790 --- [SystemOfExam] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-27T09:56:12.200+03:00  INFO 14790 --- [SystemOfExam] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+Hibernate: 
+    set client_min_messages = WARNING
+Hibernate: 
+    alter table if exists answer 
+       drop constraint if exists FKn5ewqgxmt92i4mkcpcdelvq3s
+Hibernate: 
+    alter table if exists answer 
+       drop constraint if exists FK8frr4bcabmmeyyu60qt7iiblo
+Hibernate: 
+    alter table if exists question 
+       drop constraint if exists FKhupso6ldavcx993tfnrjsdl1p
+Hibernate: 
+    drop table if exists answer cascade
+Hibernate: 
+    drop table if exists exam cascade
+Hibernate: 
+    drop table if exists exam_attempt cascade
+Hibernate: 
+    drop table if exists question cascade
+Hibernate: 
+    drop table if exists users cascade
+2025-08-27T09:56:12.242+03:00  INFO 14790 --- [SystemOfExam] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-27T09:56:12.244+03:00  INFO 14790 --- [SystemOfExam] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
