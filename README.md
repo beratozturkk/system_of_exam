@@ -180,26 +180,6 @@ npm run build
 npm test
 ```
 
-## 📝 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
-
-## 🤝 Katkıda Bulunma
-
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/AmazingFeature`)
-3. Commit yapın (`git commit -m 'Add some AmazingFeature'`)
-4. Push yapın (`git push origin feature/AmazingFeature`)
-5. Pull Request oluşturun
-
-## 📞 İletişim
-
-Proje hakkında sorularınız için:
-- Email: [your-email@example.com]
-- GitHub: [your-github-username]
-
-## 🙏 Teşekkürler
-
 Bu proje aşağıdaki teknolojiler ve topluluklar sayesinde mümkün olmuştur:
 - Spring Boot ekibi
 - React ekibi
